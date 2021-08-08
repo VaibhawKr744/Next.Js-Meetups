@@ -24,7 +24,8 @@
      return{
          props: {
              meetups: DUMMY_MEETUPS
-         }
+         },
+         revalidate:1
      }
  }
 
